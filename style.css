@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.dancing{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dancing::after{
+    content: "."; 
+    color: orangered; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+body{
+    box-sizing: border-box;
+    
+}
+::-moz-selection {
+    /* Code for Firefox */
+    background: orangered;
+}
+
+::selection {
+    background: orangered;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.quote::before  ,  .quote::after{
+    content:'"';
+    font-size: 40px;
+    color: orangered;
+    display: flex;
+    align-items: start;
+    font-style: italic;
+}
+.bglol{
+    background: orangered;
+}
+.dancing-small{
+    font-size: x-large;
+}
